@@ -1,0 +1,154 @@
+/* EDITOR */
+
+.editor{
+    width: 97%;
+    height: 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #DEB887;
+}
+
+/*EDITOR PART 1*/
+.choosing{
+      width: 33%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #A0522D;
+}
+
+.choose_font,.choose_size,.choose_upLow
+ {
+    margin-right: 10px;
+    background-color: #D2B48C; 
+    border: 1px solid #240505; 
+    color: #8B4513;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    width: 70px;
+    height: 32px;
+    border-radius: 5px;
+}
+/*EDITOR PART 2*/
+.global_changes{
+      width: 33%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #A0522D;
+
+}
+
+
+.font_all,.size_all,.up_low_all
+ {
+    margin-right: 10px;
+    background-color: #D2B48C; 
+    border: 1px solid #240505; 
+    color: #8B4513;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    width: 70px;
+    height: 32px;
+    border-radius: 5px;
+}
+/*EDITOR PART 3*/
+.special_actions{
+     width: 33%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #A0522D;
+}
+.delLast,.clearAll,.undo
+ {
+    margin-right: 10px;
+    background-color: #D2B48C; 
+    border: 1px solid #240505; 
+    color: #8B4513;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    width: 70px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+/* TEXT DISPLAY */
+.text-display{
+    width: 97%;
+    height: 40%;
+    background-color: #240505; 
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #fff; 
+}
+
+
+/* KEYPAD */
+.keypad{
+    width: 97%;
+    height: 50%;
+    background-color: #b1cde6; 
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #0d0a0a; 
+}
+
+.active{
+    background-color: #b1cde6; 
+}
+
+.virtual-keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-row {
+    display: flex;
+}
+
+.keyboard-key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #240505; 
+    border-radius: 5px;
+    background-color: #240505; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -1,0 +1,21 @@
+.App {
+  background-color: #292626; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70vw;
+  height: 80vh;
+  padding: 20px;
+  border: solid 4px;
+  border-color: #8B4513; 
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(67, 227, 52, 0.3); 
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #DEB887; /* Dark blue background color */
+}
